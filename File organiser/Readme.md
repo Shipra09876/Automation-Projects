@@ -1,7 +1,6 @@
-## File organser
-### This is a Python File Organizer script that automatically sorts files in a given directory based on their file extensions. It moves files into categorized folders such as Images, Documents, Videos, etc. Additionally, it supports in-place sorting within folders by name, type, and date (optional view/log only — no extra folders are created).
+# File organser
+This is a Python File Organizer script that automatically sorts files in a given directory based on their file extensions. It moves files into categorized folders such as Images, Documents, Videos, etc. Additionally, it supports in-place sorting within folders by name, type, and date (optional view/log only — no extra folders are created).
 
-.
 
 # 🚀 Features
 - Organizes files into folders based on their file extension:
@@ -23,7 +22,7 @@
 - Creation date
 
 # 📁 Supported File Types
-ExtensionFiles = {
+- ExtensionFiles = {
     'Images': ['.img', '.gif', '.jpeg', '.jpg', '.png', '.svg'],
     'Documents': ['.pptx', '.docx', '.doc', '.pdf', '.exe', '.txt', '.html', '.bat'],
     'Spreadsheet': ['.xlcs', '.csv'],
@@ -56,3 +55,7 @@ ExtensionFiles = {
     │   └── backup.zip
     ├── 📁 Others/
     │   └── unknown.xyz
+
+# 🧾 License
+This project is open-source and free to use under the MIT License.
+
