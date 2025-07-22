@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 ExtensionFiles={
     'Images':['.img','.gif','.jpeg','.jpg','.png','.svg'],
-    'Documents':['.pptx','.docx','.doc','.pdf','.exe','.txt','.html','.bat'],
+    'Documents':['.pptx','.docx','.doc','.pdf','.exe','.txt','.html','.bat','.ppt'],
     'Spreadsheet':['.xlsx','.csv','.xls'],
     'Videos': ['.mp3','.mp4', '.mov'],
     'Archives': ['.zip', '.tar', '.rar'],
@@ -103,9 +103,4 @@ def list_sorted(folder_path):
         list_sorted(others_folder)
 
 # =================================================================
-
-
-    
-        
-
 
