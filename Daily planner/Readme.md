@@ -23,7 +23,7 @@ os
 
 # 📦 Requirements
 - Install dependencies:
-    pip install pandas
+    - pip install pandas
 
 # ▶️ How to Run
 - Place your tasks.csv file in the same directory as main.py.
@@ -39,9 +39,9 @@ os
 
 # 📄 Example Output in output.txt
 
-09:00 AM - 10:30 AM: Write Report
-10:30 AM - 11:00 AM: Check Email
-11:00 AM - 12:00 PM: Study
+- 09:00 AM - 10:30 AM: Write Report
+- 10:30 AM - 11:00 AM: Check Email
+- 11:00 AM - 12:00 PM: Study
 
 # 🧠 How it Works
 - Reads all tasks and durations from tasks.csv
